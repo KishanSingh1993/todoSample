@@ -88,12 +88,9 @@ class MainActivity : AppCompatActivity(),TodoAdapter.TodoClickListener {
 
     @Suppress("DEPRECATION")
     override fun openGallery() {
-        // For latest versions API LEVEL 19+
-        var intent = Intent(Intent.ACTION_OPEN_DOCUMENT)
-        intent.putExtra(Intent.EXTRA_ALLOW_MULTIPLE, true)
-        intent.addCategory(Intent.CATEGORY_OPENABLE)
-        intent.type = "image/*"
-        startActivityForResult(intent, REQUEST_CODE);
+        val intent = Intent(this, SelectImages::class.java)
+        // start your next activity
+        startActivity(intent)
     }
 
     @Suppress("DEPRECATION")
