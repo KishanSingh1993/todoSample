@@ -1,6 +1,8 @@
-package `in`.ktechnos.todoassignment
+package `in`.ktechnos.todoassignment.database
 
 import androidx.lifecycle.LiveData
+import `in`.ktechnos.todoassignment.database.TodoDao
+import `in`.ktechnos.todoassignment.model.Todo
 
 class TodoRepository(private val todoDao: TodoDao) {
 

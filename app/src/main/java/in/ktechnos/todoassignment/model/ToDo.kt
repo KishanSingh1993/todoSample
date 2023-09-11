@@ -1,4 +1,4 @@
-package `in`.ktechnos.todoassignment
+package `in`.ktechnos.todoassignment.model
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

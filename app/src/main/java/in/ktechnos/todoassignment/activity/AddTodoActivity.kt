@@ -1,4 +1,4 @@
-package `in`.ktechnos.todoassignment
+package `in`.ktechnos.todoassignment.activity
 
 import android.app.Activity
 import android.content.Intent
@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import `in`.ktechnos.todoassignment.model.Todo
 import `in`.ktechnos.todoassignment.databinding.ActivityAddTodoBinding
 import java.text.SimpleDateFormat
 import java.util.Date

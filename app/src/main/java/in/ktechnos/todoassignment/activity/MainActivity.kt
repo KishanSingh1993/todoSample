@@ -1,17 +1,20 @@
-package `in`.ktechnos.todoassignment
+package `in`.ktechnos.todoassignment.activity
 
 import android.app.Activity
 import android.content.Intent
 import android.net.Uri
-import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
+import `in`.ktechnos.todoassignment.model.Todo
+import `in`.ktechnos.todoassignment.adapter.TodoAdapter
+import `in`.ktechnos.todoassignment.database.TodoDatabase
+import `in`.ktechnos.todoassignment.TodoViewModel
 import `in`.ktechnos.todoassignment.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity(),TodoAdapter.TodoClickListener {
+class MainActivity : AppCompatActivity(), TodoAdapter.TodoClickListener {
 
     private lateinit var binding: ActivityMainBinding
     private lateinit var database: TodoDatabase

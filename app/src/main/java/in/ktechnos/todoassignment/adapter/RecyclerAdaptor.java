@@ -1,4 +1,4 @@
-package in.ktechnos.todoassignment;
+package in.ktechnos.todoassignment.adapter;
 
 import android.net.Uri;
 import android.view.LayoutInflater;
@@ -8,6 +8,8 @@ import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
+
+import in.ktechnos.todoassignment.R;
 
 public class RecyclerAdaptor extends RecyclerView.Adapter<RecyclerAdaptor.ViewHolder> {
 

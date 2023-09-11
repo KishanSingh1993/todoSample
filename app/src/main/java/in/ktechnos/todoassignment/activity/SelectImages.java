@@ -1,4 +1,4 @@
-package in.ktechnos.todoassignment;
+package in.ktechnos.todoassignment.activity;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,6 +13,9 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+
+import in.ktechnos.todoassignment.R;
+import in.ktechnos.todoassignment.adapter.RecyclerAdaptor;
 
 public class SelectImages extends AppCompatActivity implements View.OnClickListener {
 

@@ -1,4 +1,4 @@
-package `in`.ktechnos.todoassignment
+package `in`.ktechnos.todoassignment.database
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
@@ -6,6 +6,7 @@ import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
+import `in`.ktechnos.todoassignment.model.Todo
 
 @Dao
 interface TodoDao {
